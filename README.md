@@ -25,7 +25,7 @@ Below we show an example of the SA algorithm's output for threshold levels 2, 3,
 `git clone https://github.com/JsteReubsSoftware/COS791-Assignment2.git`
 2. Copy the entire folder to your Google Drive *(the Notebook file was developed on Google Colab and thus uses specific file paths)*
 3. Open the **Jupyer Notebook** file `u21457060-cos791-a2.ipynb`
-4. Search for all the file paths starting with `/content/drive/MyDrive/University/Honours/COS791/Assignments` and replace them with the path `/content/drive/<your-directory>` where *<your-directory>* refers to the path where you uploaded the repository folder.
+4. Search for all the file paths starting with `/content/drive/MyDrive/University/Honours/COS791/Assignments` and replace them with the path `/content/drive/<your-directory>` where `<your-directory>` refers to the path where you uploaded the repository folder on your Google Drive.
 5. Once the file paths are correctly setup you can simply run the notebook from top to bottom. The **Main Program** section contains the code for running both the SA and VNS algorithms.
 
 **Note: The implementation for the functions `calc_variance` and `calc_entropy` was adapted from the `_get_variance` and `_get_enropy` functions found in the open source library [pythreshold](https://github.com/manuelaguadomtz/pythreshold/tree/master).**
